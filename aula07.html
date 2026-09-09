@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de HTML5 07</title>
+</head>
+<body>
+    <h1>Exemplo de Interativo de Site com formularios e indicadores em html5</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend> Dados de Cadastro e Agendamento</legend>
+            <label for="usuario">nome do aluno(Obrigario)</label><br>
+            <input type="text" id="usuario" name="usuario" placeholder ="EX: João Silva" required><br><br>
+
+            <label for="idade">idade(numero):</label><br>
+            <input type="text" id="idade" name="idade" min="1" max="120" placeholder="Ex: 18"><BR><BR>
+            
+            <LAbel for="nascimento">Data de nascimento</LAbel><br>
+            <input type="date" id="nascimento" name="nascimento"><br><br>
+            
+            <label for="consulta">data e hora da aula</label><br>
+            <input type="datetime-local" id="consulta" ><br><br>
+            
+            <label for="cor_favorita">Cor Preferida</label><br>
+            <input type="color" id="color_favorita" name ="cor_favorita" value="#ff0000"> <br><br>
+
+            <label for="satisfacao"> Nivel de Staisfacao (0 a 10):</label><br>
+            <input type="range" id="satisfacao" name="satisfacao" min="0" max="10" step="1"><br><br>
+            
+            <label for="navegador">Navegador principal</label><br>
+            <input type="text" id="navegador" list="navegadores" placeholder="Escolha ou digite">
+            <datalist id="navegadores">
+                <option value="Chrome"></option>
+                <option value="FireFox"></option>
+                <option value="Edge"></option>                
+                <option value="Safari"></option>
+            </datalist>
+            <br>
+
+        </fieldset>
+        <fieldset>
+         <legend>indicadores de progresso e metricas</legend>
+         <label for="progresso curso">Progreço do curso (70%)</label>
+         <progress value="70" max="100">70%</progress><br><br>
+         
+         <label for="uso_disco">Uso do Armazenamento 75 de 100GB</label>
+         <meter value="uso_disco" value="75" min="0" max="100" low="30" high="80" optimum="20">75%</meter>   
+         <br>
+         <button type="submit">EITAAAA BIXO</button>
+        </fieldset>
+    </form>
+</body>
+</html>
