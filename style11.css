@@ -1,0 +1,48 @@
+/* 1. Background-color */
+.fundo {
+    background-color: lightblue;
+}
+
+/* 2. Três tipos de Border */
+.borda-1 {
+    border: 3px solid black;
+}
+
+.borda-2 {
+    border: 3px dashed red;
+}
+
+.borda-3 {
+    border: 3px dotted blue;
+}
+
+/* 3. Cor, Negrito e Riscado */
+.cor-texto {
+    color: green;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+/* 4. Fontes diferentes */
+.outra-fonte {
+    font-family: 'Courier New', monospace;
+}
+
+/* 5. Alinhamentos */
+.esquerda {
+    text-align: left;
+}
+
+.centro {
+    text-align: center;
+}
+
+.direita {
+    text-align: right;
+}
